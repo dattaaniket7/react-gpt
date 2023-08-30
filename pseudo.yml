@@ -1,0 +1,20 @@
+Counter:
+  Props:
+    - initialCount: number
+    - onCounterChange: function
+  State:
+    - count: number (initialCount)
+  EventHandlers:
+    - handleIncrement:
+      - count: increment
+      - onCounterChange: call (count)
+    - handleDecrement:
+      - count: decrement
+      - onCounterChange: call (count)
+  LifeCycleMethods:
+    - componentDidMount: call (onCounterChange, initialCount)
+  Render:
+    - Display: Current count (count)
+    - Button: Increment (onClick: handleIncrement)
+    - Button: Decrement (onClick: handleDecrement)
+  ChildComponents: None
