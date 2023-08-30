@@ -1,0 +1,16 @@
+{
+    "title": "Breaking Bad",
+    "seasons": 5,
+    "episodes": 62,
+    "genre": "Crime drama",
+    "actors": [
+        {
+            "name": "Bryan Cranston",
+            "age": 67
+        },
+        {
+            "name": "Aaron Paul",
+            "age": 44
+        }
+    ]
+}
